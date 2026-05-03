@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "aimassist",
+  "version": "${version}",
+  "name": "Aim Assist",
+  "description": "Smooth aim assist mod for Minecraft 1.21",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aimassist.AimAssistMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
